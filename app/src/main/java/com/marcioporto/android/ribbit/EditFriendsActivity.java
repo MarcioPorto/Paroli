@@ -31,6 +31,7 @@ public class EditFriendsActivity extends ListActivity {
         // Set loading animation (progress bar)
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_friends);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         getListView().setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
     }
