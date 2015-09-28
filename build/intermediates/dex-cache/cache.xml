@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\libs\commons-io-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\commons-io-2.4-a2f9cb1b31097af09454f6d25bb374321ab2d8fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\libs\Parse-1.10.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="181b435832725bec96c11ff568bdfbccdacab944">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\Parse-1.10.1-e35808dc32b59d73d4903ad6c78b53ce2eec7628.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\classes-55f8232f098b7a624eaa23b9f69c95b0a89e266b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-a9daf103325fe8b90109444e24d147da86666cea.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcio\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-d8366928518893803bfab124c6907368a66edafd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcio\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-43f8314701901472f460850ce081333f8667c459.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\classes-903c1f4b22405b2fed7413f34160e0d8747e28c1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-cce8d5ef894b735a434f11beec3137c1b72c0142.jar" />
+    </item>
+
+</items>
