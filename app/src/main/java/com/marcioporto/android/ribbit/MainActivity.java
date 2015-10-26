@@ -19,7 +19,6 @@ import android.widget.Toast;
 
 import com.parse.ParseAnalytics;
 import com.parse.ParseUser;
-import com.parse.ui.ParseLoginBuilder;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -277,14 +276,11 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
 
     private void navigateToLogin() {
         // All activities are started through intents
-        //Intent intent = new Intent(this, LoginActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         // these next two lines put LoginActivity on top of the app stack
-        //intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        //intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        //startActivity(intent);
-
-        ParseLoginBuilder builder = new ParseLoginBuilder(MainActivity.this);
-        startActivityForResult(builder.build(), LOGIN_REQUEST);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
     }
 
 
