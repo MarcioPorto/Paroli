@@ -1,9 +1,93 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- <style name="AppTheme" parent="android:Theme.Holo.Light"> -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--</style>-->
+
+    <style name="Theme.Paroli" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_paroli</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Paroli</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Paroli</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Paroli</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Paroli</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Paroli</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_paroli</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_paroli</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Paroli</item>
         <item name="android:editTextBackground">@drawable/apptheme_edit_text_holo_light</item>
     </style>
+
+    <style name="ActionBar.Solid.Paroli" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_paroli</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_paroli</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_paroli</item>
+        <item name="progressBarStyle">@style/ProgressBar.Paroli</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Paroli" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_paroli</item>
+        <item name="progressBarStyle">@style/ProgressBar.Paroli</item>
+    </style>
+
+    <style name="PopupMenu.Paroli" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_paroli</item>
+    </style>
+
+    <style name="DropDownListView.Paroli" parent="@style/Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_paroli</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Paroli" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_paroli</item>
+    </style>
+
+    <style name="DropDownNav.Paroli" parent="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_paroli</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_paroli</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_paroli</item>
+    </style>
+
+    <style name="ProgressBar.Paroli" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_paroli</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Paroli" parent="@style/Widget.AppCompat.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_paroli</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Paroli.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Paroli</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Paroli</item>
+    </style>
+
+
+
+
+
+
+
+
+
 
     <style name="AuthBackground">
         <item name="android:background">@drawable/background_fill</item>
