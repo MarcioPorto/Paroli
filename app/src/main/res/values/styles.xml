@@ -19,10 +19,6 @@
 
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- <style name="AppTheme" parent="android:Theme.Holo.Light"> -->
-    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
-    <!--</style>-->
-
     <style name="Theme.Paroli" parent="@style/Theme.AppCompat.Light">
         <item name="actionBarItemBackground">@drawable/selectable_background_paroli</item>
         <item name="popupMenuStyle">@style/PopupMenu.Paroli</item>
@@ -79,13 +75,6 @@
         <item name="popupMenuStyle">@style/PopupMenu.Paroli</item>
         <item name="dropDownListViewStyle">@style/DropDownListView.Paroli</item>
     </style>
-
-
-
-
-
-
-
 
 
 
