@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                tools:context="com.marcioporto.android.ribbit.ui.ProfileFragment" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="@dimen/profile_image_horizontal_margin"
+        android:layout_marginRight="@dimen/profile_image_horizontal_margin"
+        android:layout_marginTop="15dp"
+        android:id="@+id/profilePicture"
+        android:src="@drawable/avatar_empty"
+        android:contentDescription="@string/content_desc_profile_image"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marcio Porto"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/profilePicture"
+        android:paddingTop="10dp"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstImageView"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/secondImageView"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thirdImageView"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <!--<VideoView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/videoView" />-->
+
+    <!--<ListView-->
+        <!--android:id="@android:id/list"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:paddingBottom="@dimen/inbox_vertical_margin"-->
+        <!--android:clipToPadding="false" />-->
+
+</RelativeLayout>

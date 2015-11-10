@@ -2,11 +2,25 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\libs\commons-io-2.4.jar"
+        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
-        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\commons-io-2.4-a2f9cb1b31097af09454f6d25bb374321ab2d8fb.jar" />
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\classes-55f8232f098b7a624eaa23b9f69c95b0a89e266b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcio\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.3.0\bc535105332645408ef5f1380215cc954b842178\bolts-applinks-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.3.0-9c820e25c1a7fa61d371d1e1c365068715ebb887.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcio\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.10.3\36366e460af2c0f224bb8f70b64e3302f638b138\parse-android-1.10.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="36366e460af2c0f224bb8f70b64e3302f638b138">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\parse-android-1.10.3-573a87a36e10b7668f8fd146df9fb2908b2fed28.jar" />
     </item>
     <item
         jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
@@ -16,25 +30,25 @@
         <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-a9daf103325fe8b90109444e24d147da86666cea.jar" />
     </item>
     <item
-        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\libs\picasso-2.5.2.jar"
+        jar="C:\Users\Marcio\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.3.0\8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c\bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.3.0-29187ef0f9808fe8c998828d3312412a4d9db006.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcio\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-cce8d5ef894b735a434f11beec3137c1b72c0142.jar" />
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-e629ed3077c5fa394c69b7f5f7b7ac7cf2b25d3b.jar" />
     </item>
     <item
-        jar="C:\Users\Marcio\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\libs\Parse-1.10.3.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-d8366928518893803bfab124c6907368a66edafd.jar" />
-    </item>
-    <item
-        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\libs\Parse-1.10.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="181b435832725bec96c11ff568bdfbccdacab944">
-        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\Parse-1.10.1-e35808dc32b59d73d4903ad6c78b53ce2eec7628.jar" />
+        sha1="dfef23b83f8434c6e881096e1ac6d54dc3e52041">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\Parse-1.10.3-3d1af1e6fc13d80d3107a1885c8cb0d8b32a8b40.jar" />
     </item>
     <item
         jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
@@ -51,11 +65,11 @@
         <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-43f8314701901472f460850ce081333f8667c459.jar" />
     </item>
     <item
-        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jar="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\libs\commons-io-2.4.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\classes-55f8232f098b7a624eaa23b9f69c95b0a89e266b.jar" />
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="C:\Users\Marcio\AndroidStudioProjects\Ribbit\app\build\intermediates\pre-dexed\debug\commons-io-2.4-a2f9cb1b31097af09454f6d25bb374321ab2d8fb.jar" />
     </item>
 
 </items>
